@@ -1,0 +1,9 @@
+[package]
+name = "lz01x"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.71"
+common = { path = "../../common" }
+lzo1x-1 = "0.1.0"

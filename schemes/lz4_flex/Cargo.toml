@@ -1,0 +1,9 @@
+[package]
+name = "lz4_flex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.71"
+common = { path = "../../common" }
+lz4_flex = "0.10.0"

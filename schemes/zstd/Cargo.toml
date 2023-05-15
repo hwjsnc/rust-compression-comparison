@@ -1,0 +1,9 @@
+[package]
+name = "zstd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.71"
+common = { path = "../../common" }
+zstd = "0.12.3"

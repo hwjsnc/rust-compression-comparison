@@ -1,0 +1,5 @@
+common/target
+schemes/*/target
+corpora
+*.tar.gz
+*.zip

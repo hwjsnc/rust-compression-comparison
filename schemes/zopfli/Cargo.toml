@@ -1,0 +1,9 @@
+[package]
+name = "zopfli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.71"
+common = { path = "../../common" }
+zopfli = "0.7.2"

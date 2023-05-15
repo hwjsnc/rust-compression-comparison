@@ -1,0 +1,9 @@
+[package]
+name = "flate2-zlib-ng"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.71"
+common = { path = "../../common" }
+flate2 = { version = "1.0.26", default-features = false, features = ["zlib-ng"] }

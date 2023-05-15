@@ -1,0 +1,9 @@
+[package]
+name = "rust-lzma"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.71"
+common = { path = "../../common" }
+rust-lzma = "0.6.0"

@@ -1,0 +1,9 @@
+[package]
+name = "tetsy-snappy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.71"
+common = { path = "../../common" }
+tetsy-snappy = "0.1.0"

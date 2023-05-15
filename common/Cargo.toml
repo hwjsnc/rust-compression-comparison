@@ -1,0 +1,12 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.71"
+average = { version = "0.13.1", default-features = false, features = ["std"] }
+csv = "1.2.1"
+serde = { version = "1.0.163", features = ["serde_derive"] }
