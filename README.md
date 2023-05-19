@@ -44,10 +44,10 @@ For additional plots not shown here, see the [plots](./plots) directory.
 Generally, all schemes compress the canterbury corpus (2.8 MB) best in terms of both size and throughput (i.e. compression & decompression speed), followed by the "large" canterbury corpus (11 MB), followed by the Silesia corpus (212 MB).
 
 ![Size reduction of the Canterbury corpus by compression scheme](plots/compression-canterbury.png)
-![Size reduction of the Silesia corpus by compression scheme](plots/compression-canterbury.png)
+![Size reduction of the Silesia corpus by compression scheme](plots/compression-silesia.png)
 
 ![Compression and decompression speed for the Canterbury corpus by compression scheme](plots/throughput-canterbury.png)
-![Compression and decompression speed for the Silesia corpus by compression scheme](plots/throughput-canterbury.png)
+![Compression and decompression speed for the Silesia corpus by compression scheme](plots/throughput-silesia.png)
 
 Note that compression and decompression speed are depicted with error bars (depicting the square root of the sample variance) but they are almost always smaller than the markers.
 
@@ -74,7 +74,7 @@ For the smaller corpora, the shape is roughly the same when accounting for the p
 ![Decompression speed by size reduction for the Silesia corpus](plots/d-dc-silesia.png)
 
 At the highest range of compression (smallest compressed sizes, >70% size reduction), there are four contenders: rust-lzma, brotli/brotlic (which have similar overall performance), bzip2, and zstd.
-rust-lzma achieves the best compression and, at a given speed, generally compresses faster than zstd and brotli.
+rust-lzma achieves the best compression and, at a given speed, generally compresses better than zstd and brotli.
 brotli decompresses faster than rust-lzma and zstd decompresses faster than brotli.
 zstd compresses about as fast or faster than brotli but doesn't quite reach the same top size reduction.
 bzip2 compresses faster than rust-lzma but has the slowest decompression speed.
